@@ -1,0 +1,28 @@
+{
+  "name": "boardgame-io-tutorial",
+  "version": "1.0.0",
+  "description": "Tutorial of using BoardGame.io from [their listed documentation](https://boardgame.io/documentation/#/tutorial).",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "browserslist": "defaults and supports async-functions",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katerberg/boardgame-io-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/katerberg/boardgame-io-tutorial/issues"
+  },
+  "homepage": "https://github.com/katerberg/boardgame-io-tutorial#readme",
+  "dependencies": {
+    "boardgame.io": "^0.50.2"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
